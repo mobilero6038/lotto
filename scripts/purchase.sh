@@ -34,9 +34,7 @@ if [ "$AVAILABLE_AMOUNT" -lt "$MIN_REQUIRED" ]; then
     "$VENV_PYTHON" "$PROJECT_DIR/src/charge.py" 10000
 fi
 
-# Step 3: Buy Lotto 720
-echo "🎫 Buying Lotto 720..."
-"$VENV_PYTHON" "$PROJECT_DIR/src/lotto720.py"
+
 
 # Step 4: Buy Lotto 645
 echo "🎫 Buying Lotto 645..."
